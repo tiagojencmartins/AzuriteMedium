@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Azurite.Tests;
 
-public class Tests
+public class BlobService_Tests
 {
     private const string Asset = "assets/spyro.txt";
 

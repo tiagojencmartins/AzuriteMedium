@@ -2,8 +2,6 @@ using Azure.Storage.Blobs;
 
 public class BlobService : IBlobService
 {
-    private const string ContainerName = "ExampleContainer";
-
     private readonly BlobContainerClient _blobClient;
 
     public BlobService(BlobContainerClient blobClient)
